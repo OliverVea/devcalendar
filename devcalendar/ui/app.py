@@ -1,6 +1,7 @@
-import eel
 import datetime
 import json
+
+import eel
 
 from devcalendar.logic import CalendarService
 from devcalendar.storage import DataclassEncoder
