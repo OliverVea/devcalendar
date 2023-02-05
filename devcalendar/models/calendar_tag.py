@@ -1,0 +1,3 @@
+
+class CalendarTag(str):
+    pass

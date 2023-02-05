@@ -1,0 +1,1 @@
+from devcalendar.validation.calendar_validator import validate_calendar
