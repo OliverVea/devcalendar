@@ -18,8 +18,9 @@ class StaticCalendarProdider(CalendarProvider):
 def get_dummy_static_provider() -> StaticCalendarProdider:
     logging.warning('Using dummy `CalendarProvider` meant for debugging.')
 
-    start = date(2022, 11, 17)
-    end = date(2022, 12, 3)
+    start = date.today()
+    end = date(2023, 3, 20)
+
     entries = [
         CalendarEntry('entry 1', start, []),
         CalendarEntry('entry 2', end, ['tag A']),
