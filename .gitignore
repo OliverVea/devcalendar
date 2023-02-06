@@ -2,5 +2,6 @@
 /.log
 /.pytest_cache
 /venv
+/web
 
 **/__pycache__
